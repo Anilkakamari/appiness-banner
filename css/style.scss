@@ -1,0 +1,81 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.box-shadow{
+    box-shadow: 0 6px 4px -6px rgba(0, 0, 0, 0.3);
+}
+.navbar-collapse{
+    flex-grow: initial;
+}
+.btn-search{
+    background: orange;
+    height: 73px;
+    display: block;
+    width: 85px;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+@media only screen and (max-width: 600px) {
+    .navbar-expand-lg>.container{
+        padding: 10px;
+    }
+}
+.kiwanono-banner{
+    background: #3E51B1;
+    @media only screen and (max-width: 600px) {
+        position: sticky;
+        h2{
+            font-size: 28px;
+        }
+        .col-sm-7{
+            position: absolute;
+            z-index: 10;
+        }
+        .col-sm-5{
+            position: relative;
+            z-index: 20;
+        }
+    }
+    .primary-color{
+        color: #fff;
+    }
+    a{
+        font-size: 12px;
+    }
+    .absolute{
+        position: absolute;
+        top: 40%;
+        width: 200px;
+        right: 0;
+        p{
+            font-size: 14px;
+        }
+    }
+    
+}
+.footer{
+    margin-top: -125px;
+    color: #fff;
+    border-top: 1px solid #fff;
+    padding: 25px;
+    position: relative;
+    @media only screen and (max-width: 600px) {
+        margin: 0;
+        background: #3E51B1;
+        border: none;
+        padding: 0;
+        .col-lg-2{
+            border-top: 1px solid #fff;
+            h5{
+                font-size: 18px;
+                padding: 15px;
+            }
+        }
+    }
+}

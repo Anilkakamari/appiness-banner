@@ -31,6 +31,12 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 10px;
   }
 }
+.active {
+  background: #FBA531;
+  border-radius: 8px 0px;
+  padding: 0 8px;
+}
+
 .kiwanono-banner {
   background: #3E51B1;
 }
@@ -76,9 +82,10 @@ h1, h2, h3, h4, h5, h6, p {
 @media only screen and (max-width: 600px) {
   .footer {
     margin: 0;
-    background: #3E51B1;
     border: none;
     padding: 0;
+    position: relative;
+    z-index: 30;
   }
   .footer .col-lg-2 {
     border-top: 1px solid #fff;

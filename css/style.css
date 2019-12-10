@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6, p {
   .kiwanono-banner .col-sm-7 {
     position: absolute;
     z-index: 10;
+    width: auto;
   }
   .kiwanono-banner .col-sm-5 {
     position: relative;
